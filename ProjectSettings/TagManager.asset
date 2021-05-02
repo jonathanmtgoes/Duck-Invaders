@@ -9,6 +9,7 @@ TagManager:
   - barrel
   - ammo
   - duck
+  - duckTrigger
   layers:
   - Default
   - TransparentFX

@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Move_Ammo : MonoBehaviour
+public class Move_Ammo_Enemy : MonoBehaviour
 {
     public float ammo_force = 7f;
-    public float ammo_lifespan = 2f;
+    public float ammo_lifespan = 3f;
     public GameObject ammo;
-
 
     // Start is called before the first frame update
     void Start()

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Mov_Enemy : MonoBehaviour
@@ -12,6 +13,8 @@ public class Mov_Enemy : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(new Vector2(Time.deltaTime * veloc, 0));    
+        transform.Translate(new Vector2(Time.deltaTime * veloc, 0));
     }
+
+
 }
