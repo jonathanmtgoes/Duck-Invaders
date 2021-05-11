@@ -27,9 +27,7 @@ public class Create_Ammo : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && canFire)
         {
-            //Instantiate(ammo, new Vector2(barrel.transform.position.x, barrel.transform.position.y), barrel.transform.rotation);
-            Instantiate(ammo, new Vector2(barrel.transform.position.x, barrel.transform.position.y), Quaternion.identity);
-
+            Instantiate(ammo, new Vector2(barrel.transform.position.x, barrel.transform.position.y), barrel.transform.rotation);
             canFire = false;
         }
 
